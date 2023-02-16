@@ -36,7 +36,7 @@ svg{
 }
 
 .light-theme{
-  --color-text: var(--color-text-light);
+  --color-text: hsl(0deg 0% 0%);
   --color-background: var(--color-background-light);
   --color-pink: var(--color-pink-light);
   --color-green: var(--color-green-light);
@@ -241,7 +241,7 @@ svg{
   width: 50%;
   padding: 1000px 4%;
   margin: 0;
-  background-color: var(--color-background);
+  background-color:  rgb(169 236 255);
   overflow: hidden;
 }
 
@@ -289,7 +289,7 @@ svg{
 .section-intro-wrapper{
   position: relative;
   padding: 20% 5%;
-  border-bottom: 2px solid var(--color-pink);
+  border-bottom: 2px solid hsl(0deg 0% 0%);
   padding-bottom: 200px;
 }
 
@@ -317,7 +317,7 @@ svg{
   font-size: 16px;
   font-weight: 500;
   text-decoration: none;
-  color: var(--color-text);
+  color: rgb(0 0 0);
 }
 
 /* Fancy Decoration Part of Section */
@@ -334,7 +334,7 @@ svg{
   /* transform: skewY(25deg); */
   z-index: 5;
   text-transform: uppercase;
-  color: var(--color-pink);
+  color: rgb(2 2 2);
 }
 
 .styleOne,
@@ -368,7 +368,7 @@ svg{
   position: absolute;
   bottom: 15px;
   right: 0;
-  color: var(--color-pink);
+  color: hsl(0deg 0% 100%);
   font-size: 24px;
 }
 
@@ -422,11 +422,11 @@ svg{
 /* Other colors override */
 
 .blue-text{
-  color: var(--color-blue)
+  color: #000000;
 }
 
 .blue-border{
-  border-color: var(--color-blue);
+  border-color: #000000;
 }
 
 .blue-background{
